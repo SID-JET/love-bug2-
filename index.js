@@ -1,3 +1,3 @@
-document.querySelector(".big-heading").addEventListener("click", function(){var audio = new Audio("lalypie.mp3");
+document.querySelector(".big-heading").addEventListener("click", function(){var audio = new Audio("laly.ogg");
 audio.play();
 });
