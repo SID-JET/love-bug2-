@@ -1,7 +1,9 @@
 document.querySelector(".big-heading").addEventListener("click", function(){var audio = new Audio("laly.ogg");
 audio.play();
 animation();
-$("h1").text("I Love you so much Siddy bear!!");                                                                            
+if($("h1").text()=="I Love you so much Sid!!!"){$("h1").text("I Love you so much Siddy bear!!");}
+else{$("h1").text("I Love you so much Sid!!!");}
+                                                                            
 });
 
 function animation(){
